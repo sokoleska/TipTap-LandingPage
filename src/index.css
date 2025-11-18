@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .container-padding {
+        @apply px-10 md:px-14 lg:px-20;
+    }
+}
+
+html, body, #__next, #root {
+    min-height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('/background-clear.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
