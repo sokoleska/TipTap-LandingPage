@@ -4,10 +4,11 @@ export default function Hero() {
      return (
           <section className="min-h-[85vh] flex items-center">
                <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-12 items-center">
                          {/* LEFT: title, subtitle, buttons */}
                          <div className="space-y-8">
                               <div>
+                              {/* Title */}
                                    <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight mb-4">
                                         <span className="bg-gradient-to-r from-cyan-300 to-purple-300 bg-clip-text text-transparent">
                                              Send Tips Instantly.
@@ -17,6 +18,7 @@ export default function Hero() {
                                    </h1>
                               </div>
 
+                              {/* Subtitle */}
                               <div className="space-y-3">
                                    <p className="text-lg text-[#B8F3FF]">
                                         <span>Tip. Switch. Earn.</span>
@@ -27,7 +29,8 @@ export default function Hero() {
                                    </p>
                               </div>
 
-                              <div className="flex flex-col gap-4 pt-4 mr-52">
+                              {/* CTA buttons */}
+                              <div className="flex flex-col gap-4 pt-4 w-2/3 md:w-1/2 sm:w-2/3">
                                    <a href="#cta-buttons">
                                         <button
                                              className="text-white w-full py-2 rounded-full font-semibold text-2xl
@@ -48,10 +51,10 @@ export default function Hero() {
                               </div>
                          </div>
 
-                         {/* RIGHT: phone mockups (layout only, placeholder blocks) */}
-                         <div className="relative flex flex-col align-middle justify-center items-center ">
+                         {/* RIGHT: phone mockups */}
+                         <div className="hidden relative lg:flex flex-col justify-center items-center">
                               {/* Phone Mockup Image */}
-                              <div className="relative w-full max-w-sm lg:max-w-md">
+                              <div className="relative w-full max-w-xs lg:max-w-sm mb-10">
                                    {/* Glow effect background */}
                                    <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-cyan-500 rounded-full blur-3xl opacity-20 animate-pulse"></div>
 

@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import '/src/styles.css'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -26,7 +27,7 @@ export default function Header() {
           </a>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="nav-links items-center gap-8">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -39,16 +40,16 @@ export default function Header() {
 
           {/* CTA Button */}
           <div className="flex items-center gap-4">
-            <a href="#cta-buttons">
+            <a href="#cta-buttons" className="hidden sm:inline-block">
               <button
-                className="text-white px-6 py-2 rounded-full font-semibold border-2 border-[#a7d8f0] hidden sm:block bg-gradient-to-r from-[#280b50] to-[#7e3cd9] hover:scale-105 transform transition-all hover:bg-[linear-gradient(125.77deg,_#b8f3ff_-10.8%,_#7e3cd9_111.8%)] hover:shadow-[0_0_10px_0_#b8f3ff] hover:text-[#280b50] hover:text-semibold">
+                className="text-white px-6 py-2 rounded-full font-semibold border-2 border-[#a7d8f0] bg-gradient-to-r from-[#280b50] to-[#7e3cd9] hover:scale-105 transform transition-all hover:bg-[linear-gradient(125.77deg,_#b8f3ff_-10.8%,_#7e3cd9_111.8%)] hover:shadow-[0_0_10px_0_#b8f3ff] hover:text-[#280b50] hover:text-semibold">
                 Get Started
               </button>
             </a>
 
             <button
               onClick={toggleMenu}
-              className="md:hidden text-white p-2 hover:bg-purple-500/20 rounded-lg transition-colors"
+              className="menu-toggle text-white p-2 hover:bg-purple-500/20 rounded-lg transition-colors"
               aria-label="Toggle menu"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -70,7 +71,7 @@ export default function Header() {
             ))}
 
             <button
-              className="w-full mt-4 text-white px-6 py-2 rounded-full font-semibold border-2 border-[#a7d8f0] sm:hidden bg-gradient-to-r from-[#280b50] to-[#7e3cd9] hover:scale-105 transform transition-all hover:bg-[linear-gradient(125.77deg,_#b8f3ff_-10.8%,_#7e3cd9_111.8%)] hover:shadow-[0_0_10px_0_#b8f3ff] hover:text-[#280b50] hover:text-semibold">
+              className="w-full mt-4 text-white px-6 py-2 rounded-full font-semibold border-2 border-[#a7d8f0] mobile-cta bg-gradient-to-r from-[#280b50] to-[#7e3cd9] hover:scale-105 transform transition-all hover:bg-[linear-gradient(125.77deg,_#b8f3ff_-10.8%,_#7e3cd9_111.8%)] hover:shadow-[0_0_10px_0_#b8f3ff] hover:text-[#280b50] hover:text-semibold">
               Get Started
             </button>
           </nav>
