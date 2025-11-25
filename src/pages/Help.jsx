@@ -2,7 +2,7 @@ export default function Help() {
      return (
           <main className="min-h-screen">
                {/* Header */}
-               <section className="pt-20 pb-12 px-4">
+               <section className="pt-20 pb-12 px-10 md:px-8">
                     <div className="max-w-4xl mx-auto text-center">
                          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
                               Help Center
@@ -11,7 +11,7 @@ export default function Help() {
                </section>
 
                {/* Getting Started Section */}
-               <section className="py-16 px-4">
+               <section className="py-16 px-10 md:px-8">
                     <div className="max-w-4xl mx-auto">
                          <h2 className="text-4xl font-bold text-white mb-12 text-center">1. Getting Started</h2>
                          <div className="space-y-8">
@@ -40,7 +40,7 @@ export default function Help() {
                     </div>
                </section>
 
-               <section className="py-16 px-4">
+               <section className="py-16 px-10 md:px-8">
                     <div className="max-w-4xl mx-auto">
                          <h2 className="text-4xl font-bold text-white mb-12 text-center">2. Sending Tips</h2>
                          <div className="space-y-8">
@@ -68,7 +68,7 @@ export default function Help() {
                     </div>
                </section>
 
-               <section className="py-16 px-4">
+               <section className="py-16 px-10 md:px-8">
                     <div className="max-w-4xl mx-auto">
                          <h2 className="text-4xl font-bold text-white mb-12 text-center">3. Receiving Tips</h2>
                          <div className="space-y-8">
@@ -96,7 +96,7 @@ export default function Help() {
                     </div>
                </section>
 
-               <section className="py-16 px-4">
+               <section className="py-16 px-10 md:px-8">
                     <div className="max-w-4xl mx-auto">
                          <h2 className="text-4xl font-bold text-white mb-12 text-center">4. Managing Payments</h2>
                          <div className="space-y-8">
@@ -118,7 +118,7 @@ export default function Help() {
                     </div>
                </section>
 
-               <section className="py-16 px-4">
+               <section className="py-16 px-10 md:px-8">
                     <div className="max-w-4xl mx-auto">
                          <h2 className="text-4xl font-bold text-white mb-12 text-center">5. Security & Privacy</h2>
                          <div className="space-y-8">
@@ -134,7 +134,7 @@ export default function Help() {
                     </div>
                </section>
 
-               <section className="py-16 px-4">
+               <section className="py-16 px-10 md:px-8">
                     <div className="max-w-4xl mx-auto">
                          <h2 className="text-4xl font-bold text-white mb-12 text-center">6. Troubleshooting</h2>
                          <div className="space-y-8">
@@ -150,7 +150,7 @@ export default function Help() {
                     </div>
                </section>
 
-               <section className="py-16 px-4">
+               <section className="py-16 px-10 md:px-8">
                     <div className="max-w-4xl mx-auto">
                          <h2 className="text-4xl font-bold text-white mb-12 text-center">7. Contact Support</h2>
                          <div className="space-y-8">

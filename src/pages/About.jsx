@@ -1,8 +1,8 @@
 export default function About() {
      return (
-          <main className="min-h-screen">
+          <main className="min-h-screen ">
                {/* Header */}
-               <section className="pt-20 pb-10 px-4">
+               <section className="pt-20 pb-10 px-10 md:px-8">
                     <div className="max-w-4xl mx-auto text-center">
                          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
                               About Tip App
@@ -14,7 +14,7 @@ export default function About() {
                </section>
 
                {/* Mission Section */}
-               <section className="py-10 px-4">
+               <section className="py-10 px-10 md:py-24 md:px-8">
                     <div className="max-w-4xl mx-auto">
                          <div className=" bg-[#8b3dff]/30 border border-purple-500/20 rounded-2xl p-8 md:p-12">
                               <h2 className="text-4xl font-bold text-white mb-6">Our Mission</h2>
@@ -29,7 +29,7 @@ export default function About() {
                </section>
 
                {/* Vision Section */}
-               <section className="py-10 px-4">
+               <section className="py-10 px-10 md:py-24 md:px-8">
                     <div className="max-w-4xl mx-auto">
                          <div className=" bg-[#8b3dff]/30 border border-purple-500/20 rounded-2xl p-8 md:p-12">
                               <h2 className="text-4xl font-bold text-white mb-6">What We Do</h2>
@@ -45,7 +45,7 @@ export default function About() {
                </section>
 
                {/* Story Section */}
-               <section className="py-10 px-4">
+               <section className="py-10 px-10 md:py-24 md:px-8">
                     <div className="max-w-4xl mx-auto">
                          <h2 className="text-4xl font-bold text-white mb-12 text-center">Our Vision</h2>
                          <div className="space-y-8">
@@ -61,7 +61,7 @@ Thank you for being part of the TipApp community. Together, we’re changing the
                </section>
 
                {/* Values Section */}
-               <section className="py-10 px-4 mb-12">
+               <section className="py-10 px-10 md:py-24 md:px-8">
                     <div className="max-w-4xl mx-auto">
                          <h2 className="text-4xl font-bold text-white mb-12 text-center">Why Choose TipApp</h2>
                          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">

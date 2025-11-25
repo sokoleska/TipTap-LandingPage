@@ -18,7 +18,7 @@ export default function Header() {
   return (
     <header className="border-b border-purple-500/20 backdrop-blur-sm sticky top-0 z-50
     bg-[linear-gradient(134.73deg,_#1c0f3a66_-0.47%,_#24144f66_50.24%,_#2d196866_100.47%)]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div className="max-w-7xl mx-auto px-10 md:px-8 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center gap-p2">

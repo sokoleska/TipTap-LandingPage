@@ -21,7 +21,7 @@ export default function Footer() {
 
      return (
           <footer className="border-t border-purple-500/20 py-12 bottom-0">
-               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+               <div className="max-w-7xl mx-auto px-10 md:px-8">
                     {/* Footer Content */}
                     <div className="grid grid-cols-2 md:grid-cols-5 gap-12 mb-12">
                          {/* Logo */}
