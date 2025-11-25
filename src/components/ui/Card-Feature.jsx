@@ -8,7 +8,7 @@ export default function CardFeature({ title, icon }) {
 
                {/* Card content */}
                <div 
-                    className="relative rounded-[40px] p-8 h-56 flex items-center justify-center 
+                    className="relative rounded-2xl sm:rounded-[40px] md:rounded-[50px] p-8 h-56 flex items-center justify-center 
                          bg-[#1d0a46] shadow-[inset_0px_0px_40px_10px_rgba(139,61,225,0.7)]
                          hover:shadow-[inset_0_0_60px_0_rgba(139,61,225,90%),0px_0px_40px_10px_rgba(184,243,255,0.6)] transition-all duration-300">
                     {/* Title centered vertically & horizontally */}

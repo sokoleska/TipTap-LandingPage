@@ -25,11 +25,11 @@ const features = [
 
 export default function KeyFeatures() {
      return (
-          <section id="key-features" className="py-20 px-4 sm:px-6 lg:px-8">
+          <section id="key-features" className="py-20 px-10 md:py-24 md:px-8">
                {/* Section header */}
                <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Key Features</h2>
-                    <p className="text-[#C9C3FF] text-lg">Everything you need to send and receive tips effortlessly</p>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-2 sm:mb-3">Key Features</h2>
+                    <p className="text-[#C9C3FF] text-sm sm:text-base md:text-lg">Everything you need to send and receive tips effortlessly</p>
                </div>
 
                {/* Features grid with staggered layout */}

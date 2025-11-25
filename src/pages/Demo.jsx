@@ -10,7 +10,7 @@ export default function Demo() {
                               Video Demo
                          </h1>
                          <p className="text-lg text-[#C9C3FF]">
-                              Watch how TipTapp works
+                              Watch how Tip App works
                          </p>
                     </div>
 

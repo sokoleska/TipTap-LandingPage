@@ -2,11 +2,11 @@
 
 export default function CTAButtons() {
      return (
-          <section id="cta-buttons" className="py-20 px-4 sm:px-6 lg:px-8">
+          <section id="cta-buttons" className="py-20 px-10 sm:px-6 lg:px-8">
                <div className="max-w-6xl mx-auto">
                     <div className="text-center space-y-8">
                          {/* Heading */}
-                         <h2 className="text-4xl md:text-5xl font-bold text-white mb-14">
+                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-2 sm:mb-3">
                               Are YOU ready for your first tip?
                          </h2>
 

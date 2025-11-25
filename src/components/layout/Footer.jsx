@@ -23,9 +23,11 @@ export default function Footer() {
           <footer className="border-t border-purple-500/20 py-12 bottom-0">
                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Footer Content */}
-                    <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
+                    <div className="grid grid-cols-2 md:grid-cols-5 gap-12 mb-12">
                          {/* Logo */}
-                         <div className="flex items-center justify-center md:justify-start">
+                         <div className="
+                              col-span-2 md:col-span-1
+                              flex items-center justify-center md:justify-start">
                               <div className="w-20 h-20 flex items-center justify-center">
                                    <img src="/src/assets/images/Original_Logo.svg" alt="Tip App Logo" className="w-full h-full" />
                               </div>
@@ -100,11 +102,13 @@ export default function Footer() {
                          </div>
                     </div>
 
+                    
+
                     {/* Divider */}
                     <div className="border-t border-purple-500/20 pt-8">
                          {/* Copyright */}
                          <p className="text-center text-gray-500 text-sm">
-                              © 2025 TipTapp - All rights reserved
+                              © 2025 TipApp - All rights reserved
                          </p>
                     </div>
                </div>

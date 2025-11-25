@@ -8,7 +8,7 @@ export default function Contact() {
                               Get in Touch
                          </h1>
                          <p className="text-gray-300 text-lg">
-                              Have questions about Tip Tapp? We'd love to hear from you.
+                              Have questions about Tip App? We'd love to hear from you.
                          </p>
                     </div>
 

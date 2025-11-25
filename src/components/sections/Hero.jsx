@@ -3,7 +3,7 @@
 export default function Hero() {
      return (
           <section className="min-h-[85vh] flex items-center">
-               <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
+               <div className="max-w-7xl mx-auto w-full px-10 md:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-12 items-center">
                          {/* LEFT: title, subtitle, buttons */}
                          <div className="space-y-8">

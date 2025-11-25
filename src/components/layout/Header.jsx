@@ -22,8 +22,8 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center gap-p2">
-            <img src="/src/assets/images/Original_Logo.svg" alt="Tip Ta Logo" className="h-15 w-15" />
-            <span className="mx-10 font-bold text-3xl text-white">Tip Tapp</span>
+            <img src="/src/assets/images/Original_Logo.svg" alt="Tip App Logo" className="h-15 w-15" />
+            <span className="mx-10 font-bold text-3xl text-white">Tip App</span>
           </a>
 
           {/* Desktop Navigation Links */}

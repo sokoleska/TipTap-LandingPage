@@ -31,14 +31,14 @@ export default function HowItWorks() {
      }
 
      return (
-          <section id="how-it-works" className="py-20">
+          <section id="how-it-works" className="py-20 px-4 md:py-24 md:px-8">
                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Section Header */}
                     <div className="text-center mb-16">
-                         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-2 sm:mb-3">
                               How It Works?
                          </h2>
-                         <p className="text-[#C9C3FF] text-lg">
+                         <p className="text-[#C9C3FF] text-sm sm:text-base md:text-lg">
                               See how Service Providers and Tippers connect in seconds.
                          </p>
                     </div>
@@ -47,7 +47,7 @@ export default function HowItWorks() {
                     <div className="flex lg:grid lg:grid-cols-3 gap-4 md:gap-8 h-full">
                          {/* Left Column - Service Provider */}
                          <div className="flex-shrink-0 lg:w-full w-[95px] space-y-8 h-full">
-                              <h3 className="w-full lg:text-3xl md:text-2xl flex flex-wrap text-lg font-bold mb-8 text-center">
+                              <h3 className="w-full lg:text-3xl md:text-2xl text-lg font-bold mb-8 text-center">
                                    <span className="bg-gradient-to-r from-white to-[#8B3DFF] bg-clip-text text-transparent">Service Provider</span>
                               </h3>
 
@@ -116,7 +116,7 @@ export default function HowItWorks() {
 
                          {/* Right Column - Tipper */}
                          <div className="flex-shrink-0 lg:w-full w-[95px] space-y-8 h-full">
-                              <h3 className="w-full lg:text-3xl md:text-2xl text-lg font-bold mb-12 text-center">
+                              <h3 className="w-full lg:text-3xl md:text-2xl text-lg font-bold mb-8 text-center">
                                    <span className="bg-gradient-to-r from-[#3A7CFD] to-white bg-clip-text text-transparent">Tipper</span>
                               </h3>
 
