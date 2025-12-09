@@ -2,26 +2,28 @@
 
 export default function Hero() {
      return (
-          <section className="min-h-[85vh] flex items-center">
-               <div className="max-w-7xl mx-auto w-full px-10 md:px-8">
+          <section id="hero" className="min-h-[85vh] flex items-center">
+               <div className="max-w-7xl mx-auto w-full px-4 md:px-8 sm:px-6 lg:px-8 py-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-12 items-center">
                          {/* LEFT: title, subtitle, buttons */}
-                         <div className="space-y-8">
-                              <div>
+                         <div className="space-y-8 relative">
+                              {/* Glow effect background */}
+                              <div className="absolute inset-0 bg-[#3A7CFD] rounded-full blur-[100px] opacity-35 -z-10">
+                              </div>
+
                               {/* Title */}
-                                   <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight mb-4">
-                                        <span className="bg-gradient-to-r from-cyan-300 to-purple-300 bg-clip-text text-transparent">
-                                             Send Tips Instantly.
-                                        </span>
+                              <div>
+                                   <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight mb-4 [text-shadow:0_0_28px_#3A7CFD]">
+                                        <span>Send Tips Instantly.</span>
                                         <br />
-                                        <span className="bg-gradient-to-r from-cyan-300 to-purple-300 bg-clip-text text-transparent">Anywhere. Anytime.</span>
+                                        <span>Anywhere. Anytime.</span>
                                    </h1>
                               </div>
 
                               {/* Subtitle */}
                               <div className="space-y-3">
-                                   <p className="text-lg text-[#B8F3FF]">
-                                        <span>Tip. Switch. Earn.</span>
+                                   <p className="text-lg text-[#B4C2E8]">
+                                        <span>Tip. Tap. Earn.</span>
                                         <br />
                                         <span className="leading-relaxed max-w-lg">
                                              A full-circle app where you can be both Tipper and Service Provider.
@@ -30,21 +32,21 @@ export default function Hero() {
                               </div>
 
                               {/* CTA buttons */}
-                              <div className="flex flex-col gap-4 pt-4 w-2/3 md:w-1/2 sm:w-2/3">
+                              <div className="flex flex-col gap-6 pt-4 w-2/3 md:w-1/2 sm:w-2/3">
                                    <a href="#cta-buttons">
                                         <button
-                                             className="text-white w-full py-2 rounded-full font-semibold text-2xl
-                              bg-gradient-to-br from-[#0077b6] to-[#6819d7] 
-                              hover:bg-[linear-gradient(to bottom right, #6819d7 0%, #0077b6 100%)] hover:border hover:border-[#b8f3ff] hover:shadow-[0_0_10px_0_#b8f3ff] transition-all">
+                                             className="text-white w-full py-2 rounded-2xl font-semibold text-2xl
+                              bg-gradient-to-br from-[#3A7CFD] to-[#5B93FF] [text-shadow:0_4px_4px_#00000040] scale-100
+                              shadow-[0_6px_18px_0_#3A7CFD]
+                              hover:bg-[linear-gradient(to bottom right, #5B93FF 0%, #3A7CFD 100%)] hover:shadow-[0_0_40px_0_#5B93FF] transition-all">
                                              Get Started
                                         </button>
                                    </a>
                                    <a href="/demo">
                                         <button
-                                             className="text-white w-full py-2 rounded-full font-semibold text-2xl
-                                   bg-transparent border-2 border-[#6819d7]
-                                   hover:bg-[linear-gradient(125.77deg,_#b8f3ff_-10.8%,_#7e3cd9_111.8%)] hover:text-[#280b50] hover:shadow-[0_0_10px_0_#b8f3ff]
-                                   hover:border-[#b8f3ff] transition-all">
+                                             className="text-[#EAF2FF] w-full py-2 rounded-2xl font-semibold text-2xl
+                                   bg-transparent border-2 border-[#5B93FF] scale-100 shadow-[0_0px_15px_0_#3A7CFD]
+                                   hover:shadow-[0_0_18px_0_#FF6F6F] hover:border-[#FF6F6F] transition-all">
                                              Watch Demo
                                         </button>
                                    </a>
@@ -56,14 +58,15 @@ export default function Hero() {
                               {/* Phone Mockup Image */}
                               <div className="relative w-full max-w-xs lg:max-w-sm mb-10">
                                    {/* Glow effect background */}
-                                   <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-cyan-500 rounded-full blur-3xl opacity-20 animate-pulse"></div>
+                                   <div className="absolute inset-0 bg-gradient-to-r from-[#3A7CFD] to-[#FF4E4E] rounded-full blur-[150px] opacity-60">
+                                   </div>
 
                                    <div className="relative">
                                         <img
-                                             src="/src/assets/images/Hero-img.png"
-                                             alt="Tip App mobile app mockup"
-                                             width={198}
-                                             height={428}
+                                             src="/src/assets/images/v2-Hero-img.png"
+                                             alt="Tip Tapp mobile app mockup"
+                                             width={470}
+                                             height={500}
                                              className="w-full h-auto rounded-3xl"
                                         />
                                    </div>
@@ -72,13 +75,23 @@ export default function Hero() {
                               {/* Download button below */}
                               <div className="w-1/2">
                                    <a href="#cta-buttons">
-                                        <button
-                                             className="w-full text-white px-10 py-2 rounded-full font-semibold text-2xl
-                              bg-gradient-to-r from-[#7e3cd9] to-[#0b538d] 
-                              hover:from-[#0b538d] hover:to-[#7e3cd9]  hover:shadow-[0_0_10px_0_#b8f3ff] 
-                              transition-all border border-[#b8f3ff]">
-                                             Download the App
-                                        </button>
+                                        <div className='bg-gradient-to-r from-[#3A7CFD] to-[#FF4E4E] rounded-2xl p-[3px]
+                                             shadow-[0_0px_15px_0_#3A7CFD]
+                                             hover:shadow-[0_0_40px_0_#5B93FF] transition-all
+                                        '>
+                                             <div className="flex items-center bg-[#2D5095] rounded-2xl">
+                                                  <button
+                                                       className="w-full text-white py-2 rounded-2xl font-semibold text-2xl
+                                                            [text-shadow:0_4px_4px_#00000040] scale-100
+                                                            hover:bg-[#2F549C]
+                                                            transition-all">
+                                                       Download the App
+                                                  </button>
+                                             </div>
+                                        </div>
+
+
+
                                    </a>
                               </div>
 

@@ -11,7 +11,7 @@ export default function ReviewCard({
      return (
           <div className="relative group" key={id}>
                {/* Card */}
-               <div className="bg-[linear-gradient(134.73deg,_#1c0f3a_-0.47%,_#24144f_50.24%,_#2d1968_100.47%)] shadow-[0px_0px_30px_0_rgba(125,79,255,0.35)] rounded-[20px] p-6 md:p-8  transition-colors duration-300">
+               <div className="bg-[linear-gradient(45deg,_#3A7CFD_0%,_#8B3DFF_50%,_#FF4E4E_100%)] shadow-[0px_0px_40px_#3A35B3] rounded-[20px] p-6 md:p-8  transition-colors duration-300">
 
                     {/* Content */}
                     <div className="relative">
@@ -25,7 +25,7 @@ export default function ReviewCard({
                                    />
                                    <div>
                                         <h3 className="text-white font-semibold">{name}</h3>
-                                        <p className="text-gray-400 text-sm">{title}</p>
+                                        <p className="text-gray-200 text-sm">{title}</p>
                                         {/* Rating */}
                                         {/* 
                                              <div className="flex gap-1">
@@ -45,7 +45,7 @@ export default function ReviewCard({
 
 
                          {/* Quote */}
-                         <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-6">
+                         <p className="text-gray-100 text-sm md:text-base leading-relaxed mb-6">
                               "{quote}"
                          </p>
                     </div>

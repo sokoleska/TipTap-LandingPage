@@ -17,30 +17,30 @@ export default function Terms() {
                          <section className="mb-8">
                               <h2 className="text-2xl font-semibold text-white mb-4">1. Overview </h2>
                               <p className="text-gray-300 leading-relaxed">
-                                   Tip App provides a platform that enables users to send and receive digital tips securely through Stripe, a trusted third-party payment processor. Tip App does not operate as a bank, payment institution, or money service business. All financial transactions are processed and managed by Stripe Connect, in accordance with applicable laws and regulations.
+                                   Tip Tapp provides a platform that enables users to send and receive digital tips securely through Stripe, a trusted third-party payment processor. Tip Tapp does not operate as a bank, payment institution, or money service business. All financial transactions are processed and managed by Stripe Connect, in accordance with applicable laws and regulations.
                               </p>
                          </section>
 
                          <section className="mb-8">
                               <h2 className="text-2xl font-semibold text-white mb-4">2. Definitions </h2>
                               <p className="text-gray-300 leading-relaxed">
-                                   <b>“Tipper”</b> – A user who sends a tip or payment through Tip App.
+                                   <b>“Tipper”</b> – A user who sends a tip or payment through Tip Tapp.
                               </p>
                               <p className="text-gray-300 leading-relaxed">
-                                   <b>“Service Provider”</b> – A user who receives a tip or payment through Tip App.
+                                   <b>“Service Provider”</b> – A user who receives a tip or payment through Tip Tapp.
                               </p>
                               <p className="text-gray-300 leading-relaxed">
-                                   <b>“Platform”</b> – Refers to Tip App, including its website, mobile app, and related services.
+                                   <b>“Platform”</b> – Refers to Tip Tapp, including its website, mobile app, and related services.
                               </p>
                               <p className="text-gray-300 leading-relaxed">
-                                   <b>“Stripe”</b> – Refers to Stripe Payments UK Ltd, which processes all payments and payouts on behalf of Tip App users.
+                                   <b>“Stripe”</b> – Refers to Stripe Payments UK Ltd, which processes all payments and payouts on behalf of Tip Tapp users.
                               </p>
                          </section>
 
                          <section className="mb-8">
                               <h2 className="text-2xl font-semibold text-white mb-4">3. Eligibility</h2>
                               <p className="text-gray-300 leading-relaxed">
-                                   To use Tip App, you must:
+                                   To use Tip Tapp, you must:
                               </p>
                               <ul className="list-disc list-inside text-gray-300 space-y-2 my-4">
                                    <li>Be at least 18 years old</li>
@@ -48,12 +48,12 @@ export default function Terms() {
                                    <li>Provide accurate and complete information during registration</li>
                               </ul>
                               <p className="text-gray-300 leading-relaxed">
-                                   By using Tip App, you represent that you meet these eligibility requirements.
+                                   By using Tip Tapp, you represent that you meet these eligibility requirements.
                               </p>
                          </section>
 
                          <section className="mb-8">
-                              <h2 className="text-2xl font-semibold text-white mb-4">4. Using Tip App </h2>
+                              <h2 className="text-2xl font-semibold text-white mb-4">4. Using Tip Tapp </h2>
                               <h4 className="font-semibold my-3 text-xl text-white">For Tippers</h4>
                               <ul className="list-disc list-inside text-gray-300 space-y-2 my-4">
                                    <li>You may send tips to Service Providers through the Platform using a supported payment method (credit/debit card, Apple Pay, Google Pay, etc.). </li>
@@ -65,37 +65,37 @@ export default function Terms() {
                                    <li>You can receive tips from Tippers directly through Stripe Connect.</li>
                                    <li>Funds become available for withdrawal according to Stripe’s payout schedule and may take several days to process.</li>
                                    <li>You may initiate a withdrawal at any time for available funds.</li>
-                                   <li>If no withdrawal is made, Tip App will automatically process all pending payouts once the oldest transaction reaches 80 days.</li>
+                                   <li>If no withdrawal is made, Tip Tapp will automatically process all pending payouts once the oldest transaction reaches 80 days.</li>
                               </ul>
                          </section>
 
                          <section className="mb-8">
                               <h2 className="text-2xl font-semibold text-white mb-4">5. Platform Fees</h2>
                               <p className="text-gray-300 leading-relaxed">
-                                   Tip App charges a 10% platform fee on each completed transaction. This fee is automatically deducted from the total amount before the Service Provider receives their payout. Stripe may also charge additional processing fees according to their pricing structure, which are separate from Tip App’s service fee.
+                                   Tip Tapp charges a 10% platform fee on each completed transaction. This fee is automatically deducted from the total amount before the Service Provider receives their payout. Stripe may also charge additional processing fees according to their pricing structure, which are separate from Tip Tapp’s service fee.
                               </p>
                          </section>
 
                          <section className="mb-8">
                               <h2 className="text-2xl font-semibold text-white mb-4">6. Payment Processing via Stripe </h2>
                               <p className="text-gray-300 leading-relaxed">
-                                   All payment processing on Tip App is handled by Stripe Payments UK Ltd via Stripe Connect. By using Tip App, you agree to Stripe’s Terms of Service and Privacy Policy, available at:
+                                   All payment processing on Tip Tapp is handled by Stripe Payments UK Ltd via Stripe Connect. By using Tip Tapp, you agree to Stripe’s Terms of Service and Privacy Policy, available at:
                               </p>
                               <ul className="list-disc list-inside text-gray-300 space-y-2 my-4">
                                    <li><a href="https://stripe.com/gb/connect-account/legal" target="_blank" rel="noopener noreferrer">https://stripe.com/gb/connect-account/legal</a></li>
                                    <li><a href="https://stripe.com/privacy" target="_blank" rel="noopener noreferrer">https://stripe.com/privacy</a></li>
                               </ul>
                               <p className="text-gray-300 leading-relaxed">
-                                   Tip App does not store or have access to your payment card details. Stripe Payments UK Ltd manages all KYC (Know Your Customer) and AML (Anti-Money Laundering) requirements for compliance purposes.
+                                   Tip Tapp does not store or have access to your payment card details. Stripe Payments UK Ltd manages all KYC (Know Your Customer) and AML (Anti-Money Laundering) requirements for compliance purposes.
                               </p>
                          </section>
 
                          <section className="mb-8">
                               <h2 className="text-2xl font-semibold text-white mb-4">7. Modifications</h2>
                               <p className="text-gray-300 leading-relaxed">
-                                   You agree to use Tip App only for lawful purposes and in accordance with these Terms. You must not:
+                                   You agree to use Tip Tapp only for lawful purposes and in accordance with these Terms. You must not:
                                    <ul className="list-disc list-inside text-gray-300 space-y-2 my-4">
-                                        <li>Use Tip App for money laundering, illegal gambling, or fraudulent purposes;</li>
+                                        <li>Use Tip Tapp for money laundering, illegal gambling, or fraudulent purposes;</li>
                                         <li>Attempt to reverse, dispute, or charge back legitimate payments;</li>
                                         <li>Create multiple or fake accounts;</li>
                                         <li>Interfere with the Platform’s functionality or attempt unauthorized access.</li>
@@ -110,7 +110,7 @@ export default function Terms() {
                               <h2 className="text-2xl font-semibold text-white mb-4">8. Withdrawals and Availability of Funds</h2>
                               <ul className="list-disc list-inside text-gray-300 space-y-2 mt-4">
                                    <li>Stripe may hold funds temporarily for verification, compliance, or processing reasons.</li>
-                                   <li>Tip App does not control Stripe’s payout timing and cannot guarantee exact withdrawal dates.</li>
+                                   <li>Tip Tapp does not control Stripe’s payout timing and cannot guarantee exact withdrawal dates.</li>
                                    <li>Service Providers are responsible for ensuring that their Stripe account is active and verified to receive funds. </li>
                                    <li>If a payout fails (for example, due to an invalid bank account), the funds will remain with Stripe until the issue is resolved. </li>
                               </ul>
@@ -119,14 +119,14 @@ export default function Terms() {
                          <section className="mb-8">
                               <h2 className="text-2xl font-semibold text-white mb-4">9. Refunds</h2>
                               <p className="text-gray-300 leading-relaxed">
-                                   Tips sent through Tip App are non-refundable. However, in rare cases of confirmed fraud, duplicate transactions, or unauthorized use, Tip App and Stripe may assist in processing a refund at their discretion.
+                                   Tips sent through Tip Tapp are non-refundable. However, in rare cases of confirmed fraud, duplicate transactions, or unauthorized use, Tip Tapp and Stripe may assist in processing a refund at their discretion.
                               </p>
                          </section>
 
                          <section className="mb-8">
                               <h2 className="text-2xl font-semibold text-white mb-4">10. Data & Privacy</h2>
                               <p className="text-gray-300 leading-relaxed">
-                                   Tip App respects your privacy and is committed to protecting your personal data.
+                                   Tip Tapp respects your privacy and is committed to protecting your personal data.
                               </p>
                               <ul className="list-disc list-inside text-gray-300 space-y-2 my-4">
                                    <li>We do not store or process your payment card details. All transactions are handled securely by Stripe. </li>
@@ -142,14 +142,14 @@ export default function Terms() {
                          <section className="mb-8">
                               <h2 className="text-2xl font-semibold text-white mb-4">11. Limitation of Liability</h2>
                               <p className="text-gray-300 leading-relaxed">
-                                   Tip App provides the Platform on an “as is” and “as available” basis. We make no warranties, express or implied, regarding uninterrupted access, accuracy, or suitability for a particular purpose.
+                                   Tip Tapp provides the Platform on an “as is” and “as available” basis. We make no warranties, express or implied, regarding uninterrupted access, accuracy, or suitability for a particular purpose.
                               </p>
                               <p className="text-gray-300 leading-relaxed">
                                    To the maximum extent permitted by law:
                               </p>
                               <ul className="list-disc list-inside text-gray-300 space-y-2 my-4">
-                                   <li>Tip App is not liable for any loss, damage, or claim resulting from payment delays, errors, or issues caused by Stripe or other third parties.</li>
-                                   <li> Tip App is not responsible for disputes between Tippers and Service Providers. </li>
+                                   <li>Tip Tapp is not liable for any loss, damage, or claim resulting from payment delays, errors, or issues caused by Stripe or other third parties.</li>
+                                   <li> Tip Tapp is not responsible for disputes between Tippers and Service Providers. </li>
                               </ul>
                               <p className="text-gray-300 leading-relaxed">
                                    Your sole remedy for any issue is to stop using the Platform.
@@ -159,14 +159,14 @@ export default function Terms() {
                          <section className="mb-8">
                               <h2 className="text-2xl font-semibold text-white mb-4">12. Account Termination</h2>
                               <p className="text-gray-300 leading-relaxed">
-                                   We may suspend or terminate access to Tip App if you violate these Terms, engage in fraudulent activity, or misuse the Platform. You may also close your account at any time by contacting support@tiptapthetippingapp.com.
+                                   We may suspend or terminate access to Tip Tapp if you violate these Terms, engage in fraudulent activity, or misuse the Platform. You may also close your account at any time by contacting support@tiptapthetippingapp.com.
                               </p>
                          </section>
 
                          <section className="mb-8">
                               <h2 className="text-2xl font-semibold text-white mb-4">13. Modifications to the Terms</h2>
                               <p className="text-gray-300 leading-relaxed">
-                                   We may update these Terms from time to time. Changes will take effect once posted on our website or app. Your continued use of Tip App after changes means you accept the updated Terms.
+                                   We may update these Terms from time to time. Changes will take effect once posted on our website or app. Your continued use of Tip Tapp after changes means you accept the updated Terms.
                               </p>
                          </section>
 

@@ -5,10 +5,10 @@ export default function About() {
                <section className="pt-20 pb-10 px-10 md:px-8">
                     <div className="max-w-4xl mx-auto text-center">
                          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-                              About Tip App
+                              About Tip Tapp
                          </h1>
                          <p className="text-xl text-gray-300">
-                              Welcome to Tip App — the simplest way to show appreciation and support through digital tipping.
+                              Welcome to Tip Tapp — the simplest way to show appreciation and support through digital tipping.
                          </p>
                     </div>
                </section>
@@ -19,7 +19,7 @@ export default function About() {
                          <div className=" bg-[#8b3dff]/30 border border-purple-500/20 rounded-2xl p-8 md:p-12">
                               <h2 className="text-4xl font-bold text-white mb-6">Our Mission</h2>
                               <p className="text-lg text-gray-300 leading-relaxed mb-4">
-                                   Our mission is to make gratitude effortless. Whether you’re thanking your favorite creator, a service provider, or a coworker, Tip App lets you send and receive tips securely with just a few taps.
+                                   Our mission is to make gratitude effortless. Whether you’re thanking your favorite creator, a service provider, or a coworker, Tip Tapp lets you send and receive tips securely with just a few taps.
                               </p>
                               <p className="text-lg text-gray-300 leading-relaxed">
                                    We believe in rewarding effort instantly and empowering individuals to earn directly from their supporters. Every tip, no matter the size, helps people feel valued for their time, talent, and service.

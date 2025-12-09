@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import '/src/styles.css'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -16,40 +15,42 @@ export default function Header() {
     { label: 'User Story', href: '#user-stories' },
   ]
   return (
-    <header className="border-b border-purple-500/20 backdrop-blur-sm sticky top-0 z-50
-    bg-[linear-gradient(134.73deg,_#1c0f3a66_-0.47%,_#24144f66_50.24%,_#2d196866_100.47%)]">
-      <div className="max-w-7xl mx-auto px-10 md:px-8 py-4">
+    <header className="sticky top-0 z-50 border-b border-[#7AB5FF]/20 backdrop-blur-sm 
+    bg-[linear-gradient(134.73deg,_#0B0A1A_-0.47%,_#11113390_50.24%,_#0D0D26_100.47%)]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-8 py-4"> 
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-p2">
-            <img src="/src/assets/images/Original_Logo.svg" alt="Tip App Logo" className="h-15 w-15" />
-            <span className="mx-10 font-bold text-3xl text-white">Tip App</span>
+          <a href="/" className="flex items-center gap-2">
+            <img src="/src/assets/images/Original_Logo.svg" alt="Tip Tapp Logo" className="h-14 w-14" />
+            <span className="ml-10 sm:mx-10 font-bold text-3xl text-white">Tip App</span>
           </a>
 
           {/* Desktop Navigation Links */}
-          <nav className="nav-links items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-8">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="text-gray-300 hover:text-white transition-colors text-lg font-medium">
+                className="text-[#7AB5FF] hover:text-white transition-colors text-lg font-medium">
                 {item.label}
               </a>
             ))}
           </nav>
 
-          {/* CTA Button */}
+          {/* CTA + Burger */}
           <div className="flex items-center gap-4">
             <a href="#cta-buttons" className="hidden sm:inline-block">
               <button
-                className="text-white px-6 py-2 rounded-full font-semibold border-2 border-[#a7d8f0] bg-gradient-to-r from-[#280b50] to-[#7e3cd9] hover:scale-105 transform transition-all hover:bg-[linear-gradient(125.77deg,_#b8f3ff_-10.8%,_#7e3cd9_111.8%)] hover:shadow-[0_0_10px_0_#b8f3ff] hover:text-[#280b50] hover:text-semibold">
+                className="text-white text-lg px-6 py-2 rounded-2xl font-semibold border-2 border-[#ff6f6f]/90 bg-[#2d1421] shadow-[0px_0px_12px_0px_rgba(255,111,111,0.5)]
+                hover:scale-105 transform transition-all hover:bg-white hover:shadow-[0_0_12px_0_rgba(255,111,111,0.9)] hover:text-[#2D1421] hover:font-semibold">
                 Get Started
               </button>
             </a>
 
+            {/* Burger only on mobile/tablet */}
             <button
               onClick={toggleMenu}
-              className="menu-toggle text-white p-2 hover:bg-purple-500/20 rounded-lg transition-colors"
+              className="lg:hidden text-white p-2 bg-[#2d1421] shadow-[0px_0px_12px_0px_rgba(255,111,111,0.5)] rounded-lg transition-colors"
               aria-label="Toggle menu"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -57,23 +58,27 @@ export default function Header() {
           </div>
         </div>
 
+        {/* Mobile Menu */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 space-y-2 border-t border-purple-500/20 pt-4">
+          <nav className="lg:hidden mt-4 pb-4 space-y-2 border-t border-[#7AB5FF]/20 pt-4">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-purple-500/10 rounded-lg transition-colors"
+                className="block px-4 py-2 text-[#7AB5FF] hover:text-white transition-colors text-lg font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
               </a>
             ))}
 
-            <button
-              className="w-full mt-4 text-white px-6 py-2 rounded-full font-semibold border-2 border-[#a7d8f0] mobile-cta bg-gradient-to-r from-[#280b50] to-[#7e3cd9] hover:scale-105 transform transition-all hover:bg-[linear-gradient(125.77deg,_#b8f3ff_-10.8%,_#7e3cd9_111.8%)] hover:shadow-[0_0_10px_0_#b8f3ff] hover:text-[#280b50] hover:text-semibold">
-              Get Started
-            </button>
+            <a href="#cta-buttons">
+              <button
+                className="sm:hidden w-full mt-4 px-6 py-2 text-white text-lg rounded-2xl font-semibold border-2 border-[#ff6f6f]/90 bg-[#2d1421] shadow-[0px_0px_12px_0px_rgba(255,111,111,0.5)]
+            hover:scale-105 transform transition-all hover:bg-white hover:shadow-[0_0_12px_0_rgba(255,111,111,0.9)] hover:text-[#2D1421] hover:font-semibold">
+                Get Started
+              </button>
+            </a>
           </nav>
         )}
       </div>

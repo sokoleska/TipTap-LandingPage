@@ -11,7 +11,7 @@ const reviews = [
           avatar: '/src/assets/avatars/Jacqueline_Kressner.png',
           earnings: '€787 this month',
           rating: 5,
-          quote: 'Tipping is the most important way to show gratitude and thanks to those that serve us but usually go under the radar... As we move into more & more of a cashless society, cashless Tipping services will become the norm and support our communities and societies. Giving thanks with a tip, regardless of size, is a gift. Tip App the Tipping App epitomises this in a seamless and efficient way. Enjoy!',
+          quote: 'Tipping is the most important way to show gratitude and thanks to those that serve us but usually go under the radar... As we move into more & more of a cashless society, cashless Tipping services will become the norm and support our communities and societies. Giving thanks with a tip, regardless of size, is a gift. Tip Tapp the Tipping App epitomises this in a seamless and efficient way. Enjoy!',
           provider: 'stripe',
      },
      {
@@ -41,11 +41,11 @@ export default function Reviews() {
           <section className="py-20 px-10 md:py-24 md:px-8">
                <div className="max-w-7xl mx-auto">
                     {/* Header */}
-                    <div className="text-center mb-12 md:mb-16">
+                    <div className="text-center mb-12 md:mb-10">
                          <h2 className="text-3xl md:text-4xl font-bold text-white mb-2 sm:mb-3">
                               Why do you need this app?
                          </h2>
-                         <p className="text-[#c9c3ff] text-sm sm:text-base md:text-lg">
+                         <p className="text-[#B4C2E8] text-sm sm:text-base md:text-lg">
                               Real reviews from the people behind the success of TipApp.
                          </p>
                     </div>

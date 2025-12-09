@@ -1,3 +1,6 @@
 #root {
   margin: 0;
+  /* overflow-x: hidden; */
+  overflow-x: clip; /* or hidden */
+  overflow-y: visible !important; /* ensures sticky continues to work */
 }

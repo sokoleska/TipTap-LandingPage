@@ -1,0 +1,31 @@
+<svg width="1690" height="551" viewBox="0 0 1690 551" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_1052_57)">
+<path d="M-32 327.589C-32 327.589 188.5 80.5889 387.5 55.0889C586.5 29.5889 563.5 460.59 836 494.592C1108.5 528.593 1142 80.0865 1352 94.5889C1562 109.091 1573.5 443.589 1707 327.589" stroke="white" stroke-width="8"/>
+</g>
+<g filter="url(#filter1_f_1052_57)">
+<path d="M-32 327.589C-32 327.589 188.5 80.5889 387.5 55.0889C586.5 29.5889 563.5 460.59 836 494.592C1108.5 528.593 1142 80.0865 1352 94.5889C1562 109.091 1573.5 443.589 1707 327.589" stroke="white" stroke-width="10"/>
+</g>
+<defs>
+<filter id="filter0_dd_1052_57" x="-84.9805" y="0" width="1844.6" height="550.433" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="12.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.305882 0 0 0 0 0.305882 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1052_57"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="25"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.305882 0 0 0 0 0.305882 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_1052_57" result="effect2_dropShadow_1052_57"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1052_57" result="shape"/>
+</filter>
+<filter id="filter1_f_1052_57" x="-40.7261" y="43.9998" width="1756.01" height="462.433" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_1052_57"/>
+</filter>
+</defs>
+</svg>

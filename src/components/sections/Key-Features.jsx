@@ -1,54 +1,52 @@
-import CardFeature from "../ui/card-feature";
+import React from "react";
+import Card from "../ui/Card";
 
 const features = [
      {
           title: 'Multi-currency support',
-          icon: 'src/assets/icons/Multi-currency.png',
+          icon: 'src/assets/icons/v2-multi-currency.svg',
      },
      {
           title: 'Instant payouts',
-          icon: 'src/assets/icons/Light.png',
+          icon: 'src/assets/icons/v2-Light.svg',
      },
      {
           title: 'Secure payments via Stripe',
-          icon: 'src/assets/icons/Secure.png',
+          icon: 'src/assets/icons/stripeLogo.webp',
      },
      {
           title: 'Track all your earnings in one dashboard',
-          icon: 'src/assets/icons/Track.png',
+          icon: 'src/assets/icons/v2-Dashboard.svg',
      },
      {
           title: 'Support from anywhere',
-          icon: 'src/assets/icons/Global-support.png',
+          icon: 'src/assets/icons/v2-Earth.svg',
      },
-];
+]
 
 export default function KeyFeatures() {
      return (
-          <section id="key-features" className="py-20 px-10 md:py-24 md:px-8">
+          <section id="key-features" className="py-20 px-4 sm:px-6 md:py-24 md:px-8 lg:px-8">
                {/* Section header */}
-               <div className="text-center mb-16">
+               <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-2 sm:mb-3">Key Features</h2>
-                    <p className="text-[#C9C3FF] text-sm sm:text-base md:text-lg">Everything you need to send and receive tips effortlessly</p>
+                    <p className="text-[#B4C2E8] text-sm sm:text-base md:text-lg">Everything you need to know.</p>
                </div>
 
                {/* Features grid with staggered layout */}
                <div className="max-w-full">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
-                         {/* Top row - 3 cards */}
-                         <CardFeature title={features[0].title} icon={features[0].icon} />
-                         <CardFeature title={features[1].title} icon={features[1].icon} />
-                         <CardFeature title={features[2].title} icon={features[2].icon} />
+                    <div className="cursor-pointer justify-between items-center gap-10 
+                    flex flex-col mb-10
+                    md:flex-row md:mb-20">
+                         <Card key={0} icon={features[0].icon} title={features[0].title} />
+                         <Card key={1} icon={features[1].icon} title={features[1].title} />
+                         <Card key={2} icon={features[2].icon} title={features[2].title} />
                     </div>
-
-                    {/* Bottom row - 2 cards centered */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-6 md:mt-8 max-w-2xl mx-auto md:max-w-none md:flex md:justify-center">
-                         <div className="md:w-80">
-                              <CardFeature title={features[3].title} icon={features[3].icon} />
-                         </div>
-                         <div className="md:w-80">
-                              <CardFeature title={features[4].title} icon={features[4].icon} />
-                         </div>
+                    <div className="cursor-pointer justify-evenly items-center gap-10
+                         flex flex-col 
+                         md:flex-row">
+                         <Card key={3} icon={features[3].icon} title={features[3].title} />
+                         <Card key={4} icon={features[4].icon} title={features[4].title} />
                     </div>
                </div>
           </section>

@@ -17,9 +17,20 @@ html {
 }
 
 body {
-    background-image: url('/background-clear.png');
+    background-image: url('/v2-Background-clean.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: scroll;
     background-size: 100% 100%;
+}
+
+.bubble-anim {
+    opacity: 0;
+    transform: scale(0.85);
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.bubble-anim.show {
+    opacity: 1;
+    transform: scale(1);
 }
