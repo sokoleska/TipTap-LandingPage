@@ -11,7 +11,9 @@ export default function ReviewCard({
      return (
           <div className="relative group" key={id}>
                {/* Card */}
-               <div className="bg-[linear-gradient(45deg,_#3A7CFD_0%,_#8B3DFF_50%,_#FF4E4E_100%)] shadow-[0px_0px_40px_#3A35B3] rounded-[20px] p-6 md:p-8  transition-colors duration-300">
+               <div className="rounded-[20px] p-6 md:p-8  transition-colors duration-300
+               bg-[linear-gradient(45deg,_#d71921_0%,#2C0507_40%,#1C1C4E_60%,_#0077B6_100%)] 
+               shadow-[0px_0px_40px_#3A35B3] ">
 
                     {/* Content */}
                     <div className="relative">

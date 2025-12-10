@@ -31,7 +31,7 @@ export default function HowItWorks() {
      }
 
      return (
-          <section id="how-it-works" className="py-20 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-8 ">
+          <section id="how-it-works" className="my-20 md:my-24 max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-8 max-h-dvh">
                <div >
                     {/* Section Header */}
                     <div className="text-center mb-10">
@@ -58,15 +58,16 @@ export default function HowItWorks() {
 
                     {/* Main Layout - Three columns */}
                     <div className="flex lg:grid lg:grid-cols-3 gap-4 md:gap-8 h-full">
+
                          {/* Left Column - Service Provider */}
-                         <div className="flex-shrink-0 lg:w-full w-[95px] space-y-8 h-full">
+                         <div className="flex-shrink-0 lg:w-full w-[90px] space-y-8 h-full">
 
                               <div className="flex flex-1 flex-col items-center justify-between sm:h-[520px] h-[300px]">
                                    {serviceProviderSteps.map((step) => (
                                         <button
                                              key={step.number}
                                              onClick={() => setActiveStep(prev => prev === step.number ? null : step.number)}
-                                             className="w-full flex items-center gap-4 group text-right justify-center lg:justify-between"
+                                             className="w-full flex items-center gap-4 group  justify-center lg:justify-between"
                                         >
                                              {/* Label */}
                                              <span
@@ -81,7 +82,7 @@ export default function HowItWorks() {
 
                                              {/* Circle Button */}
                                              <div
-                                                  className={`flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg transition-all cursor-pointer bg-[#FF4E4E] text-white ${activeStep === step.number
+                                                  className={`flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg transition-all cursor-pointer bg-[#d71921] text-white ${activeStep === step.number
                                                        ? ' scale-110 shadow-[0_0_40px_0_#b8f3ff]'
                                                        : 'shadow-[0_0_15px_0_#b8f3ff] '
                                                        }`}
@@ -94,10 +95,10 @@ export default function HowItWorks() {
                          </div>
 
                          {/* Center Column - Phone Mockup */}
-                         <div className="flex-1 flex justify-center items-center py-8 lg:py-0">
+                         <div className="flex-1 flex justify-center items-center">
                               <div className="relative w-full max-w-[240px]">
                                    {/* Glow effect */}
-                                   <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-cyan-500 rounded-3xl blur-2xl opacity-20"></div>
+                                   <div className="absolute inset-0 bg-gradient-to-br from-[#d71921] to-[#0077B6] rounded-3xl blur-2xl opacity-50"></div>
 
                                    {/* Phone Container */}
                                    <div
@@ -105,7 +106,7 @@ export default function HowItWorks() {
                                         style={{ aspectRatio: '375 / 813', maxHeight: '520px' }}>
 
                                         {/* Phone Screen - Image Display */}
-                                        <div className="flex-1 w-full h-full flex items-center justify-center bg-gradient-to-br from-[#FF4E4E] to-[#3A7CFD]">
+                                        <div className="flex-1 w-full h-full flex items-center justify-center bg-gradient-to-br from-[#d71921] to-[#0077B6]">
                                              {getPhoneImage() ? (
                                                   <img
                                                        src={getPhoneImage()}
@@ -126,7 +127,7 @@ export default function HowItWorks() {
                          </div>
 
                          {/* Right Column - Tipper */}
-                         <div className="flex-shrink-0 lg:w-full w-[95px] space-y-8 h-full">
+                         <div className="flex-shrink-0 lg:w-full w-[90px] space-y-8 h-full">
 
                               <div className="flex flex-1 flex-col items-center justify-between sm:h-[520px] h-[300px]">
                                    {tipperSteps.map((step) => (
@@ -137,7 +138,7 @@ export default function HowItWorks() {
                                         >
                                              {/* Circle Button */}
                                              <div
-                                                  className={`flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg transition-all cursor-pointer bg-[#3A7CFD] text-white ${activeStep === step.number
+                                                  className={`flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg transition-all cursor-pointer bg-[#0077B6] text-white ${activeStep === step.number
                                                        ? ' scale-110 shadow-[0_0_40px_0_#b8f3ff]'
                                                        : 'shadow-[0_0_15px_0_#b8f3ff] '
                                                        }`}
@@ -147,9 +148,9 @@ export default function HowItWorks() {
 
                                              {/* Label */}
                                              <span
-                                                  className={`hidden lg:block lg:flex-1 text-lg font-semibold text-center rounded-full py-3 border border-[#5B93FF]/40 text-white transition-all scale-100
+                                                  className={`hidden lg:block lg:flex-1 text-lg font-semibold text-center rounded-full py-3 border border-[#0077B6]/60 text-white transition-all scale-100
                                                        ${activeStep === step.number
-                                                            ? 'bg-[#3A7CFD]/40 shadow-[0_0_18px_0_#3A7CFD]'
+                                                            ? 'bg-[#0077B6]/40 shadow-[0_0_18px_0_#3A7CFD]'
                                                             : 'bg-gradient-to-r from-[#3A7CFD]/20 to-[#243D70]/40 group-hover:text-gray-300'
                                                        }`}
                                              >

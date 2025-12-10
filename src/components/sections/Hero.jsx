@@ -36,8 +36,8 @@ export default function Hero() {
                                    <a href="#cta-buttons">
                                         <button
                                              className="text-white w-full py-2 rounded-2xl font-semibold text-2xl
-                              bg-gradient-to-br from-[#3A7CFD] to-[#5B93FF] [text-shadow:0_4px_4px_#00000040] scale-100
-                              shadow-[0_6px_18px_0_#3A7CFD]
+                              bg-[#0077B6] [text-shadow:0_4px_4px_#00000040] scale-100
+                              shadow-[0_0_18px_-1px_#5B93FF]
                               hover:bg-[linear-gradient(to bottom right, #5B93FF 0%, #3A7CFD 100%)] hover:shadow-[0_0_40px_0_#5B93FF] transition-all">
                                              Get Started
                                         </button>
@@ -45,7 +45,7 @@ export default function Hero() {
                                    <a href="/demo">
                                         <button
                                              className="text-[#EAF2FF] w-full py-2 rounded-2xl font-semibold text-2xl
-                                   bg-transparent border-2 border-[#5B93FF] scale-100 shadow-[0_0px_15px_0_#3A7CFD]
+                                   bg-transparent border-2 border-[#0077B6] scale-100 shadow-[0_0px_15px_0_#3A7CFD]
                                    hover:shadow-[0_0_18px_0_#FF6F6F] hover:border-[#FF6F6F] transition-all">
                                              Watch Demo
                                         </button>
@@ -75,7 +75,7 @@ export default function Hero() {
                               {/* Download button below */}
                               <div className="w-1/2">
                                    <a href="#cta-buttons">
-                                        <div className='bg-gradient-to-r from-[#3A7CFD] to-[#FF4E4E] rounded-2xl p-[3px]
+                                        <div className='bg-gradient-to-r from-[#0077B6] to-[#d71921] rounded-2xl p-[3px]
                                              shadow-[0_0px_15px_0_#3A7CFD]
                                              hover:shadow-[0_0_40px_0_#5B93FF] transition-all
                                         '>

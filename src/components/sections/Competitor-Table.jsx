@@ -1,8 +1,5 @@
 'use client'
 
-import React from 'react'
-import { Check, AlertCircle, X } from 'lucide-react'
-
 const TipAppFeatures = [
      'Global availability',
      'Individual provider onboarding',
@@ -38,7 +35,7 @@ export default function CompetitorTable() {
                     </div>
 
                     {/* Comparison Table */}
-                    <div className='bg-[#140A48]/40 shadow-[0_0_20px_rgba(255,255,255,0.2)] grid-rows-2 text-center rounded-2xl sm:rounded-[30px] md:rounded-[50px] gap-3 py-6 border border-[#3A7CFD]/20'>
+                    <div className='bg-[#140A48]/40 shadow-[0_0_20px_rgba(255,255,255,0.2)] grid-rows-2 text-center rounded-2xl sm:rounded-[30px] md:rounded-[50px] gap-3 py-6 border border-[#0077B6]/20'>
 
                          {/* Table Headers */}
                          <div className='grid grid-cols-2 items-center sm:pb-3 sm:mx-10 sm:gap-10 md:gap-16'>
@@ -59,22 +56,22 @@ export default function CompetitorTable() {
                          <div className='hidden sm:grid sm:grid-cols-2 sm:items-center sm:mx-10 sm:gap-10 md:gap-16'>
 
                               {/* Tip App */}
-                              <div className='bg-gradient-to-br from-[#3A7CFD] to-[#FF4E4E] p-[2px] rounded-2xl sm:rounded-[30px] md:rounded-[50px] shadow-[0_0_20px_2px_rgba(58,124,253,0.4)] h-full'>
+                              <div className='bg-gradient-to-br from-[#0077B6] to-[#d71921] p-[2px] rounded-2xl sm:rounded-[30px] md:rounded-[50px] shadow-[0_0_20px_2px_rgba(58,124,253,0.4)] h-full'>
                                    <div className='bg-[#0D0D26] rounded-2xl py-3  sm:rounded-[30px] md:rounded-[50px] text-base md:text-lg lg:text-xl h-full'>
                                         <ul>
                                              <li>{TipAppFeatures.map((feature, index) => (
-                                                  <p key={index} className="py-2 px-4 border-b border-[#3A7CFD]/20">{feature}</p>
+                                                  <p key={index} className="py-2 px-4 border-b border-[#0077B6]/20 last:border-b-0">{feature}</p>
                                              ))}</li>
                                         </ul>
                                    </div>
                               </div>
 
                               {/* Competitors */}
-                              <div className='bg-gradient-to-br from-[#FF4E4E] to-[#3A7CFD] p-[2px] rounded-2xl sm:rounded-[30px] md:rounded-[50px] h-full'>
+                              <div className='bg-gradient-to-br from-[#d71921] to-[#0077B6] p-[2px] rounded-2xl sm:rounded-[30px] md:rounded-[50px] h-full'>
                                    <div className='bg-[#0D0D26] rounded-2xl sm:rounded-[30px] md:rounded-[50px] py-3 text-base md:text-lg lg:text-xl h-full'>
                                         <ul>
                                              <li>{CompetitorFeatures.map((feature, index) => (
-                                                  <p key={index} className="py-2 px-4 border-b border-[#3A7CFD]/20">{feature}</p>
+                                                  <p key={index} className="py-2 px-4 border-b border-[#0077B6]/20 last:border-b-0">{feature}</p>
                                              ))}</li>
                                         </ul>
                                    </div>
@@ -83,7 +80,7 @@ export default function CompetitorTable() {
 
                          {/* Mobile Content 330 - 640 */}
                          <div className="sm:hidden mt-4 px-3">
-                              <div className='bg-gradient-to-br from-[#3A7CFD] to-[#FF4E4E] p-[2px] rounded-2xl'>
+                              <div className='bg-gradient-to-br from-[#0077B6] to-[#d71921] p-[2px] rounded-2xl'>
                                    <div className='bg-[#0D0D26] rounded-2xl py-3 max-h-[60vh] overflow-y-auto scroll-smooth shadow-[0_0_20px_2px_rgba(58,124,253,0.4)]'>
                                         {Array.from({ length: Math.max(TipAppFeatures.length, CompetitorFeatures.length) }).map((_, i) => {
                                              const tipper = TipAppFeatures[i] ?? "—";
@@ -91,8 +88,8 @@ export default function CompetitorTable() {
 
                                              return (
                                                   <div key={i} className='grid grid-cols-2 text-sm'>
-                                                       <p className="py-2 px-4 border-b border-r border-[#3A7CFD]/20">{tipper}</p>
-                                                       <p className="py-2 px-4 border-b border-[#3A7CFD]/20">{competitor}</p>
+                                                       <p className="py-2 px-4 border-b border-r border-[#0077B6]/20">{tipper}</p>
+                                                       <p className="py-2 px-4 border-b border-[#0077B6]/20">{competitor}</p>
                                                   </div>
                                              );
                                         })}

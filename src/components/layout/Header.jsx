@@ -21,7 +21,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center gap-2">
-            <img src="/src/assets/images/Original_Logo.svg" alt="Tip Tapp Logo" className="h-14 w-14" />
+            <img src="/public/NewLogo-Border.svg" alt="Tip Tapp Logo" className="h-14 w-14" />
             <span className="ml-10 sm:mx-10 font-bold text-3xl text-white">Tip App</span>
           </a>
 
@@ -41,7 +41,7 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <a href="#cta-buttons" className="hidden sm:inline-block">
               <button
-                className="text-white text-lg px-6 py-2 rounded-2xl font-semibold border-2 border-[#ff6f6f]/90 bg-[#2d1421] shadow-[0px_0px_12px_0px_rgba(255,111,111,0.5)]
+                className="text-white text-lg px-6 py-2 rounded-2xl font-semibold border-2 border-[#d71921]/95 bg-[#2d1421] shadow-[0px_0px_12px_0px_rgba(255,111,111,0.5)]
                 hover:scale-105 transform transition-all hover:bg-white hover:shadow-[0_0_12px_0_rgba(255,111,111,0.9)] hover:text-[#2D1421] hover:font-semibold">
                 Get Started
               </button>
@@ -74,7 +74,7 @@ export default function Header() {
 
             <a href="#cta-buttons">
               <button
-                className="sm:hidden w-full mt-4 px-6 py-2 text-white text-lg rounded-2xl font-semibold border-2 border-[#ff6f6f]/90 bg-[#2d1421] shadow-[0px_0px_12px_0px_rgba(255,111,111,0.5)]
+                className="sm:hidden w-full mt-4 px-6 py-2 text-white text-lg rounded-2xl font-semibold border-2 border-[#d71921]/95 bg-[#2d1421] shadow-[0px_0px_12px_0px_rgba(255,111,111,0.5)]
             hover:scale-105 transform transition-all hover:bg-white hover:shadow-[0_0_12px_0_rgba(255,111,111,0.9)] hover:text-[#2D1421] hover:font-semibold">
                 Get Started
               </button>
