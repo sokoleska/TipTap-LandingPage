@@ -21,7 +21,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center gap-2">
-            <img src="/public/NewLogo-Border.svg" alt="Tip Tapp Logo" className="h-14 w-14" />
+            <img src="/NewLogo-Border.svg" alt="Tip Tapp Logo" className="h-14 w-14" />
             <span className="ml-10 sm:mx-10 font-bold text-3xl text-white">Tip App</span>
           </a>
 
