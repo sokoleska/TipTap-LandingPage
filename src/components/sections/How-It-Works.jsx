@@ -12,9 +12,9 @@ export default function HowItWorks() {
      ]
 
      const tipperSteps = [
-          { number: 4, label: 'Scans code', icon: "src/assets/icons/qr-code.svg" },
-          { number: 5, label: 'Sends payment', icon: "src/assets/icons/hand-coins.svg" },
-          { number: 6, label: 'Leaves review', icon: "src/assets/icons/star.svg" },
+          { number: 4, label: 'Scans code', icon: "/icons/qr-code.svg" },
+          { number: 5, label: 'Sends payment', icon: "/icons/hand-coins.svg" },
+          { number: 6, label: 'Leaves review', icon: "/icons/star.svg" },
      ]
 
      // placeholder images that change based on clicked circle
