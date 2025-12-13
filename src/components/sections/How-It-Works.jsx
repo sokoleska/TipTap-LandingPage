@@ -20,12 +20,12 @@ export default function HowItWorks() {
      // placeholder images that change based on clicked circle
      const getPhoneImage = () => {
           const images = {
-               1: 'src/assets/images/HIW-SP1.jpg',
-               2: 'src/assets/images/HIW-SP2.jpg',
-               3: 'src/assets/images/HIW-SP3.jpg',
-               4: 'src/assets/images/HIW-TP1-Scan_QR.png',
-               5: 'src/assets/images/HIW-TP2-Payment.png',
-               6: 'src/assets/images/HIW-TP3-Review.png',
+               1: '/images/HIW-SP1.jpg',
+               2: '/images/HIW-SP2.jpg',
+               3: '/images/HIW-SP3.jpg',
+               4: '/images/HIW-TP1-Scan_QR.png',
+               5: '/images/HIW-TP2-Payment.png',
+               6: '/images/HIW-TP3-Review.png',
           }
           return images[activeStep]
      }

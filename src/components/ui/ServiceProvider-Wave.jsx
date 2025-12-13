@@ -40,7 +40,7 @@ export default function ServiceProvider() {
                          {/* ICON + DIV */}
                          <div className={`w-[90px] sm:min-w-[113px] md:w-full flex flex-col items-center text-center cursor-pointer 
                               ${open && open !== "left" ? "opacity-40" : "opacity-100"}`}>
-                              <img src="src/assets/icons/delivery_1.svg" alt="Delivery" className="w-[80px] h-[80px] sm:w-[113px] sm:h-[113px]" />
+                              <img src="/icons/delivery_1.svg" alt="Delivery" className="w-[80px] h-[80px] sm:w-[113px] sm:h-[113px]" />
                               <h3 className="text-base sm:text-xl [text-shadow:0_0_28px_#3A7CFD]">Paul serves a guest</h3>
                          </div>
 
@@ -111,7 +111,7 @@ export default function ServiceProvider() {
                          {/* ICON + DIV */}
                          <div className={`w-[90px] sm:min-w-[113px] md:w-full flex flex-col items-center text-center cursor-pointer 
                               ${open && open !== "middle" ? "opacity-40" : "opacity-100"}`}>
-                              <img src="src/assets/icons/SP2.svg" alt="Earnings" className="w-[80px] h-[80px] sm:w-[113px] sm:h-[113px]" />
+                              <img src="/icons/SP2.svg" alt="QR Code" className="w-[80px] h-[80px] sm:w-[113px] sm:h-[113px]" />
                               <h3 className="text-base sm:text-xl [text-shadow:0_0_28px_#3A7CFD]">Paul shows his QR code</h3>
                          </div>
 
@@ -124,7 +124,7 @@ export default function ServiceProvider() {
                          {/* ICON + DIV */}
                          <div className={`w-[90px] sm:min-w-[113px] md:w-full flex flex-col items-center text-center cursor-pointer
                               ${open && open !== "right" ? "opacity-40" : "opacity-100"}`}>
-                              <img src="src/assets/icons/SP3.svg" alt="QR code" className="w-[80px] h-[80px] sm:w-[113px] sm:h-[113px]" />
+                              <img src="/icons/SP3.svg" alt="Earning" className="w-[80px] h-[80px] sm:w-[113px] sm:h-[113px]" />
                               <h3 className="text-base sm:text-xl [text-shadow:0_0_28px_#3A7CFD]">Earns more with zero effort</h3>
                          </div>
 

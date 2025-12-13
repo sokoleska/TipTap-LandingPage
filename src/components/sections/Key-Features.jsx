@@ -4,23 +4,23 @@ import Card from "../ui/Card";
 const features = [
      {
           title: 'Multi-currency support',
-          icon: 'src/assets/icons/v2-multi-currency.svg',
+          icon: '/icons/v2-multi-currency.svg',
      },
      {
           title: 'Instant payouts',
-          icon: 'src/assets/icons/v2-Light.svg',
+          icon: '/icons/v2-Light.svg',
      },
      {
           title: 'Secure payments via Stripe',
-          icon: 'src/assets/icons/stripeLogo.webp',
+          icon: '/icons/stripeLogo.webp',
      },
      {
           title: 'Track all your earnings in one dashboard',
-          icon: 'src/assets/icons/v2-Dashboard.svg',
+          icon: '/icons/v2-Dashboard.svg',
      },
      {
           title: 'Support from anywhere',
-          icon: 'src/assets/icons/v2-Earth.svg',
+          icon: '/icons/v2-Earth.svg',
      },
 ]
 

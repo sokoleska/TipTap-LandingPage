@@ -42,7 +42,7 @@ export default function Tipper() {
                          <div className={`w-[90px] sm:min-w-[160px] md:w-[220px] flex flex-col items-center text-center cursor-pointer
                               ${open && open !== "left" ? "opacity-40" : "opacity-100"}`}>
 
-                              <img src="src/assets/icons/TP1.svg"
+                              <img src="/icons/TP1.svg"
                                    alt="Happy Customer"
                                    className="w-[80px] h-[80px] sm:w-[113px] sm:h-[113px]" />
 
@@ -119,8 +119,8 @@ export default function Tipper() {
                          <div className={`w-[90px] sm:min-w-[160px] md:w-[300px] flex flex-col items-center text-center cursor-pointer
                               ${open && open !== "middle" ? "opacity-40" : "opacity-100"}`}>
                               <img
-                                   src="src/assets/icons/TP2.svg"
-                                   alt="Earnings"
+                                   src="/icons/TP2.svg"
+                                   alt="Scan QR code"
                                    className="w-[80px] h-[80px] sm:w-[113px] sm:h-[113px]" />
                               <h3 className="text-base sm:text-xl [text-shadow:0_0_28px_#3A7CFD]">
                                    They scan the QR code
@@ -137,8 +137,8 @@ export default function Tipper() {
                               ${open && open !== "right" ? "opacity-40" : "opacity-100"}`}>
 
                               <img
-                                   src="src/assets/icons/TP3.svg"
-                                   alt="QR code"
+                                   src="/icons/TP3.svg"
+                                   alt="Tip and Review"
                                    className="w-[80px] h-[80px] sm:w-[113px] sm:h-[113px]" />
                               <h3 className="text-base sm:text-xl [text-shadow:0_0_28px_#3A7CFD]">
                                    They leave a quick tip and a positive review

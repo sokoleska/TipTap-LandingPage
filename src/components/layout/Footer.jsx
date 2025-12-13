@@ -30,7 +30,7 @@ export default function Footer() {
                               flex items-center justify-center md:justify-start">
                               <div className="w-20 h-20 flex items-center justify-center">
                                    <a href="#hero" className="w-full h-full">
-                                        <img src="/public/NewLogo-Border.svg"
+                                        <img src="/NewLogo-Border.svg"
                                              alt="Tip Tapp Logo"
                                              className="w-full h-full cursor-pointer" />
                                    </a>

@@ -42,7 +42,7 @@ export default function CompetitorTable() {
                               <div>
                                    <h2 className='text-lg sm:text-2xl md:text-3xl font-bold flex justify-center items-center px-2 gap-4'>
                                         <span className='max-[500px]:hidden'>
-                                             <img src="src/assets/images/Original_Logo.svg" alt="logo" />
+                                             <img src="/images/Original_Logo.svg" alt="logo" />
                                         </span>
                                         Why Tip App
                                    </h2>

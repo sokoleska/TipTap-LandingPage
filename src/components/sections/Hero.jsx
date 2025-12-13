@@ -63,7 +63,7 @@ export default function Hero() {
 
                                    <div className="relative">
                                         <img
-                                             src="/src/assets/images/v2-Hero-img.png"
+                                             src="/images/v2-Hero-img.png"
                                              alt="Tip Tapp mobile app mockup"
                                              width={470}
                                              height={500}
